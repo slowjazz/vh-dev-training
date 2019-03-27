@@ -23,9 +23,12 @@ const getDataFromAPI = (url: string) =>
 })();
 
 // write your homework here
+console.log(console);
 
 // put all this in your "objectively" function after you make it
 const whatAmI = { 0: 'A', 1: 'B', 2: 'C', 3: 'D' };
+
+console.log(whatAmI[0]);
 
 // put this stuff in your "awry" function after you make it
 const docTester = [];
