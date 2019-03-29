@@ -107,4 +107,4 @@ Before submitting, you should
 2. `npm run hw`. This should run without errors and create a js file called `hw.js`. Test this file by running it with `node` like we did early during the meeting. It should have the same result as your Typescript file being run.
 3. Answer this question: what do you notice that the Typescript transpiler did to your code? How did it transform it?
 
-@response:
+@response: The typscript transpiler created two functions, generator and await to perform the async related functions, and also converted 'types' to variables with type var and added switching with cases. 
